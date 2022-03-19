@@ -14,6 +14,15 @@ public class Main {
         System.out.println(retangulo1);
         System.out.println(retangulo2);
 
+        System.out.println("---------------------");
+        Quadrado quadrado1 = new Quadrado(5d);
+        Quadrado quadrado2 = new Quadrado();
+        quadrado2.setLado(15d);
+        quadrado1.calcularArea();
+        quadrado2.calcularArea();
+        System.out.println(quadrado1);
+        System.out.println(quadrado2);
+
 
     }
 }
