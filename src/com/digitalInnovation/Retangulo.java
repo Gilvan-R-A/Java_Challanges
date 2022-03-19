@@ -6,28 +6,27 @@ Métodos: Mudar valor dos lados, Retornar valor dos lados, calcular Área e calc
  */
 public class Retangulo {
 
-    public Double base;
-    public Double altura;
+    private Double base;
+    private Double altura;
+    private Double area;
+    private Double perimetro;
+
+    public Retangulo() {
+
+    }
 
     public Retangulo(Double base, Double altura) {
         this.base = base;
         this.altura = altura;
     }
 
-    public void alterarValor(){
-
-    }
-
-    public void retornarValor(){
-
-    }
-
     public void calcularArea(){
 
+        this.area = this.base * this.altura;
     }
 
     public void calcularPerimetro(){
-
+        this.perimetro = 2 * (this.base + this.altura);
     }
 
     public Double getBase() {
@@ -44,5 +43,15 @@ public class Retangulo {
 
     public void setAltura(Double altura) {
         this.altura = altura;
+    }
+
+    @Override
+    public String toString() {
+        return "Retangulo{" +
+                "base=" + base +
+                ", altura=" + altura +
+                ", area=" + area +
+                ", perimetro=" + perimetro +
+                '}';
     }
 }
