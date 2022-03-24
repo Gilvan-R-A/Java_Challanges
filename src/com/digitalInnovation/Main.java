@@ -23,6 +23,14 @@ public class Main {
         System.out.println(quadrado1);
         System.out.println(quadrado2);
 
+        System.out.println("---------------------");
+
+        BombaDeCombustivel bombaGasolina =
+                new BombaDeCombustivel("Gasolina",
+                        7.26,30000.00);
+
+        System.out.println(bombaGasolina);
+
 
     }
 }
