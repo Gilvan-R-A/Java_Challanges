@@ -1,4 +1,5 @@
 package com.digitalInnovation;
+
 /*
 Crie uma classe que modele uma bomba de combustível.
 Atributos: tipo de combustível, valor do litro, quantidade do combustível.
@@ -25,6 +26,20 @@ public class BombaDeCombustivel {
         this.tipoCombustivel = tipoCombustivel;
         this.valorLitro = valorLitro;
         this.quantidadeCombustivel = quantidadeCombustivel;
+    }
+
+    public void abastecePorValor(Double valorAbastecido) {
+        Double quantidadeAbastecida = valorAbastecido / this.valorLitro;
+        this.quantidadeCombustivel = quantidadeCombustivel - quantidadeAbastecida;
+        System.out.printf("Foi abastecido %.2f litros ", quantidadeAbastecida);
+
+    }
+
+
+    public void abastecerPorLitro(Double quantidadeLitros) {
+        Double valorAPagar = quantidadeLitros * this.valorLitro;
+        this.quantidadeCombustivel = quantidadeCombustivel - quantidadeLitros;
+        System.out.printf("Valor a pagar: R$ %.2f ", valorAPagar);
     }
 
     public String getTipoCombustivel() {

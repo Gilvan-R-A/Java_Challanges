@@ -30,6 +30,19 @@ public class Main {
                         7.26,30000.00);
 
         System.out.println(bombaGasolina);
+        bombaGasolina.abastecePorValor(50d);
+        System.out.println("\n");
+        System.out.println(bombaGasolina);
+        bombaGasolina.abastecerPorLitro(30d);
+        System.out.println("\n");
+
+        System.out.println(bombaGasolina);
+
+
+
+
+
+
 
 
     }
