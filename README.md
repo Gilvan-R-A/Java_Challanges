@@ -2,7 +2,7 @@
    Java_Challanges
 </h1>
 
-Repositório criado para praticar os exercícios de fixação de Orientação a Objetos sugeridos pela Camila Cavalcante da Digital Innovation One   
+Repositório criado para praticar exercícios de Programação Orientada a Objetos em **Java**.  
 
 <h2>
 Requisitos
