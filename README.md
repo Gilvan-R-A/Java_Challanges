@@ -1,5 +1,5 @@
 <h1 align="center">
-   Classes_POO_Java
+   Java_Challanges
 </h1>
 
 Repositório criado para praticar os exercícios de fixação de Orientação a Objetos sugeridos pela Camila Cavalcante da Digital Innovation One   
